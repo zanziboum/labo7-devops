@@ -1,0 +1,16 @@
+{
+    "title": "Titre de la notification",
+    "description": "Mise à jour de la version 1.0.0 à la version 1.0.1 de ABC...",
+    "environments": ["dev", "staging"],
+    "impact": ["service1", "auth"],
+    "contacts": [
+      "Med Mouine (med@kheops.dev)",
+      "John Doe (john@kheops.dev)"
+    ],
+    "schedule": {
+      "start": "Mercredi 30 Novembre 8:00",
+      "end": "Mercredi 30 Novembre 12:00"
+    },
+    "recommendations": "Monitorer l'état des services, rollback si besoin...",
+    "notify": ["SECURITY", "SUPPORT"]
+  }
